@@ -16,3 +16,10 @@ resource "azurerm_storage_account" "stgs" {
   account_tier = "Standard"
   resource_group_name = "test-rg11"
 }
+
+resource "azurerm_virtual_network" "vnet"{
+    name = "vnet1"
+  resource_group_name = "test-rg11"
+  location = "centralindia"
+  address_space = ["10.4.0.0/16"]
+}
