@@ -23,3 +23,10 @@ resource "azurerm_virtual_network" "vnet"{
   location = "centralindia"
   address_space = ["10.4.0.0/16"]
 }
+
+resource "azurerm_virtual_network" "vnet"{
+    name = "vnet2"
+  resource_group_name = "test-rg11"
+  location = "centralindia"
+  address_space = ["10.5.0.0/16"]
+}
