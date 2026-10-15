@@ -51,8 +51,10 @@ resource "azurerm_resource_group" "rgsts8" {
     name = "test-rg56"
     location = "southindia"
 }
-
-
+resource "azurerm_resource_group" "rgsts80" {
+    name = "test-rg100"
+    location = "southindia"
+}
 resource "azurerm_storage_account" "stgac" {
     name = "newraghacstorgaacoont22"
   location = "centralindia"
