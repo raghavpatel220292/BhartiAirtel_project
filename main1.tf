@@ -43,3 +43,17 @@ resource "azurerm_virtual_network" "vnet55" {
   location = "centralindia"
   address_space = ["10.8.0.0/16"]
 }
+
+resource "azurerm_resource_group" "rtggs" {
+    name = "test-rg33"
+    location = "southindia"
+}
+
+resource "azurerm_resource_group" "rgsts" {
+    name = "test-rg55"
+    location = "southindia"
+}
+resource "azurerm_resource_group" "rgsts8" {
+    name = "test-rg56"
+    location = "southindia"
+}
