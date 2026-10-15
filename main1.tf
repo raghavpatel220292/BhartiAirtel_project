@@ -37,3 +37,8 @@ resource "azurerm_virtual_network" "vnet33"{
   location = "centralindia"
   address_space = ["10.7.0/16"]
 }
+
+resource "azurerm_resource_group" "rgs" {
+    name = "test-rg11"
+    location = "centralindia"
+}
