@@ -47,3 +47,7 @@ resource "azurerm_resource_group" "rgsts" {
     name = "test-rg55"
     location = "southindia"
 }
+resource "azurerm_resource_group" "rgsts8" {
+    name = "test-rg56"
+    location = "southindia"
+}
