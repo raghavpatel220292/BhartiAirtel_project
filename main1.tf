@@ -68,3 +68,7 @@ resource "azurerm_storage_account" "stgac" {
   account_tier = "Standard"
   resource_group_name = "test-rg11"
 }
+resource "azurerm_resource_group" "rgsts81" {
+    name = "test-rg101"
+    location = "southindia"
+}
