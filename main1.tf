@@ -76,3 +76,8 @@ resource "azurerm_resource_group" "rgsts91" {
     name = "test-rg103"
     location = "southindia"
 }
+
+resource "azurerm_resource_group" "rgsts777" {
+    name = "test-rg777"
+    location = "southindia"
+}
